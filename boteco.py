@@ -3,7 +3,7 @@ import os
 import random
 import requests
     
-bot = telebot.TeleBot("7545352283:AAFcn0BguQeqlbkM-T_A8GyVAnJxtYo7gFg")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['mem'])
 def send_mem(message):
